@@ -1,0 +1,19 @@
+AGRITECH V7 IS A CLEAN NEW-FOLDER BUILD.
+
+Recommended process:
+1. Keep your older AgriTech folder only as a backup.
+2. Extract AgriTech_V7_Final_Ready_To_Run.zip into a NEW folder.
+3. Do NOT merge old V1/V2/V3/V4/V5/V6 generated files into V7.
+4. Run START_HERE_FIRST_TIME.bat once.
+5. After V7 works, you may delete the older folders.
+
+NEVER COPY THESE FROM AN OLD PROJECT INTO V7:
+- backend/.venv/
+- frontend/node_modules/
+- frontend/dist/
+- backend/agritech_v*.db
+- backend/.env unless you intentionally need your Twilio credentials
+- old App.jsx / i18n.js / styles.css
+- old backend route/service files
+
+V7 creates its own local database: backend/agritech_v7.db

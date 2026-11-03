@@ -1,0 +1,34 @@
+# AgriTech V7 final manual test checklist
+
+- [ ] New AgriTech logo appears on login page.
+- [ ] New logo/icon appears after login and in browser tab.
+- [ ] Register: Name + Mobile + Password only.
+- [ ] Login with Mobile + Password and password eye works.
+- [ ] Forgot Password uses OTP.
+- [ ] Location typing shows suggestions.
+- [ ] Selecting a suggestion stores coordinates.
+- [ ] Weather preview loads automatically after location selection.
+- [ ] Google Map preview displays selected coordinates.
+- [ ] Backup Map works if Google embed is blocked.
+- [ ] GPS current-location button works when permission is allowed.
+- [ ] Free-text crop accepts a crop outside the common crop catalog.
+- [ ] Sowing date and stage are saved.
+- [ ] Irrigation and water-source choices work.
+- [ ] Live camera opens actual camera preview.
+- [ ] Gallery opens file picker separately.
+- [ ] Plant-part selector supports leaf/flower/fruit/stem/root/whole plant/seed/other.
+- [ ] Plant scan shows risk, confidence and image quality.
+- [ ] Treatment shows problem, symptoms, causes, actions, prevention and chemical decision.
+- [ ] Chemical guidance explains why and when not to spray.
+- [ ] Two comparable plant scans produce Disease Progress.
+- [ ] Active farm remains selected after saving.
+- [ ] Live Farm Risk Assessment runs for a mapped farm.
+- [ ] Manual Farm Risk Assessment works without live weather.
+- [ ] Latest usable plant scan affects disease risk.
+- [ ] Spray Window, Smart Irrigation and Weather Alerts render.
+- [ ] What-if Simulator works without saving history.
+- [ ] Action Plan loads tasks and completion can be toggled.
+- [ ] At least two assessments show What Changed?.
+- [ ] History table shows date + time.
+- [ ] History filters work.
+- [ ] English / Hindi / Marathi / Gujarati switches work across core V7 controls.

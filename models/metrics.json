@@ -1,0 +1,53 @@
+{
+  "dataset": "synthetic academic benchmark",
+  "rows": 8000,
+  "random_seed": 42,
+  "metrics": {
+    "weather_only": {
+      "features": [
+        "temperature_c",
+        "humidity_pct",
+        "rainfall_24h_mm",
+        "et0_mm"
+      ],
+      "accuracy": 0.8063,
+      "weighted_f1": 0.7896
+    },
+    "weather_crop": {
+      "features": [
+        "temperature_c",
+        "humidity_pct",
+        "rainfall_24h_mm",
+        "et0_mm",
+        "crop_stage_code"
+      ],
+      "accuracy": 0.8069,
+      "weighted_f1": 0.791
+    },
+    "weather_crop_soil": {
+      "features": [
+        "temperature_c",
+        "humidity_pct",
+        "rainfall_24h_mm",
+        "soil_moisture_pct",
+        "et0_mm",
+        "crop_stage_code"
+      ],
+      "accuracy": 0.8256,
+      "weighted_f1": 0.8141
+    },
+    "all_factors": {
+      "features": [
+        "temperature_c",
+        "humidity_pct",
+        "rainfall_24h_mm",
+        "soil_moisture_pct",
+        "disease_probability_pct",
+        "et0_mm",
+        "crop_stage_code"
+      ],
+      "accuracy": 0.8788,
+      "weighted_f1": 0.8694
+    }
+  }
+}
